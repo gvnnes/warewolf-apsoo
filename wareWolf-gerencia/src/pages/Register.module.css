@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.formContainer {
+  width: 100%;
+  max-width: 450px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.error {
+  color: var(--cor-erro);
+  text-align: center;
+  margin-top: 1rem;
+}

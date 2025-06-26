@@ -1,0 +1,32 @@
+.body {
+    background-color: #ef74ff;
+    padding: 20px;
+    color: white;
+    width: 800px;
+    height: 800px;
+    padding: 20px 20px;
+    margin:20px auto;
+    border-radius: 8px; 
+}
+
+.pesquisa {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.inputPesq {
+     padding: 8px;
+     width: 300px;
+     border-radius: 4px;
+     border: none;
+}
+
+.bntPesq {
+     padding: 8px 10px;
+     border: none;
+     background-color: #fff;
+     color: #800000;
+     border-radius: 4px;
+     cursor: pointer;
+}

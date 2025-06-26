@@ -1,0 +1,28 @@
+.sportsmenu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f5f5f5;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.menuitem {
+  display: flex;
+  flex-direction: line;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.menuitem:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  font-size: 24px;
+}
+
+.label {
+  margin-left: 5px;
+}

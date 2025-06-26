@@ -1,0 +1,33 @@
+.placarContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.timeInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.timeInfo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+}
+
+.placar {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0 2rem;
+}
+
+.detalhesJogo {
+    text-align: center;
+    color: var(--cor-texto-secundario);
+}
